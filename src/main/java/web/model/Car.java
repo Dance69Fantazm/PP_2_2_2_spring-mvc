@@ -1,4 +1,4 @@
-package model;
+package web.model;
 
 import java.util.Objects;
 
@@ -59,7 +59,7 @@ public class Car {
     @Override
     public String toString() {
         return "Car: " +
-                "model = '" + model + '\'' +
+                "web.model = '" + model + '\'' +
                 ", color = '" + color + '\'' +
                 ", year = " + year;
     }
